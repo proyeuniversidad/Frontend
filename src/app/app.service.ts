@@ -33,7 +33,7 @@ export interface ProfileResponse {
 export class AcademicService {
   // Ajustado al puerto 4000 para que coincida con tu backend
   //private apiUrl = 'http://localhost:4000/api/users';
-  private apiUrl = 'backend-production-95295.up.railway.app';
+  private apiUrl = 'http://backend-production-95295.up.railway.app';
   // IMPORTANTE: Recuerda cambiar esto por un ID que realmente exista en tu colección "users" de MongoDB
   private userId = 'USER_ID_HERE'; 
 
